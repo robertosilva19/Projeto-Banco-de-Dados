@@ -1,0 +1,6 @@
+@Projeto_Banco_de_Dados_HostAddress = http://localhost:5093
+
+GET {{Projeto_Banco_de_Dados_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
