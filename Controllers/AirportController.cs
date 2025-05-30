@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Projeto_Banco_de_Dados.Models;
 using Projeto_Banco_de_Dados.Repositories;
+using Projeto_Banco_de_Dados.Services;
 
 namespace Projeto_Banco_de_Dados.Controllers
 {
@@ -9,18 +10,36 @@ namespace Projeto_Banco_de_Dados.Controllers
     [ApiController]
     public class AirportController : ControllerBase
     {
-        private readonly IAirportRepository _airportRepository;
+        private readonly IAirportService _airportService;
 
-        public AirportController(IAirportRepository airportRepository)
+        public AirportController(IAirportService airportService)
         {
-            _airportRepository = airportRepository;
+            _airportService = airportService;
         }
 
-        [HttpGet]
+        [HttpGet("ALL")]
         public async Task<IEnumerable<Airport>> GetAirports()
         {
-            return await _airportRepository.GetAirportsAsync();
+            return await _airportService.GetAirportsAsync();
 
+        }
+
+        [HttpGet("ByName/{name}")]
+
+        public async Task<ActionResult<Airport>> GetAirportByName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                return BadRequest("O nome do aeroporto não pode ser vazio ou nulo.");
+            }
+
+            var airport = await _airportService.GetAirportByNameAsync(name);
+
+            if (airport == null)
+            {
+                return NotFound($"O aeroporto '{name}' não foi encontrado.");
+            }
+            return Ok(airport);
         }
     }
 }

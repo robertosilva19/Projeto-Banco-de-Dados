@@ -21,14 +21,25 @@ namespace Projeto_Banco_de_Dados.Services
             throw new NotImplementedException();
         }
 
-        public Task<Airport> GetAirportByNameAsync(string id)
-        {
-            throw new NotImplementedException();
+        public async Task<Airport> GetAirportByNameAsync(string name)
+
+        {   
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentException("O nome do aeroporto não pode ser vazio ou nulo.", nameof(name));
+            }
+
+            if(name.Length < 3)
+            {
+                throw new ArgumentException("O nome do aeroporto deve ter pelo menos 3 caracteres.", nameof(name));
+            }
+
+            return await _airportRepository.GetAirportByNameAsync(name);
         }
 
-        public Task<IEnumerable<Airport>> GetAirportsAsync()
+        public async Task<IEnumerable<Airport>> GetAirportsAsync()
         {
-            throw new NotImplementedException();
+            return await _airportRepository.GetAirportsAsync();
         }
 
         public Task<bool> UpdateAirportAsync(string id, Airport airport)

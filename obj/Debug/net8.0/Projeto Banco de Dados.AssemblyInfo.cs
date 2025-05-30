@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto Banco de Dados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ed6b53a87103d271f4f0e7aabbc4733e149ce1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6777e21f47a53b5db4115b55a088d0290d437b00")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto Banco de Dados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto Banco de Dados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

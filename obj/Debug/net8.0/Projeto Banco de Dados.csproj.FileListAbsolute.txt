@@ -1,0 +1,34 @@
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\appsettings.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Projeto Banco de Dados.staticwebassets.endpoints.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Projeto Banco de Dados.exe
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Projeto Banco de Dados.deps.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Projeto Banco de Dados.runtimeconfig.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Projeto Banco de Dados.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Projeto Banco de Dados.pdb
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\DnsClient.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\Snappier.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.csproj.AssemblyReference.cache
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.AssemblyInfoInputs.cache
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.AssemblyInfo.cs
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.sourcelink.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\scopedcss\bundle\Projeto Banco de Dados.styles.css
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto .4D350850.Up2Date
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\refint\Projeto Banco de Dados.dll
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.pdb
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\Projeto Banco de Dados.genruntimeconfig.cache
+C:\Users\rober\source\repos\Projeto Banco de Dados\Projeto Banco de Dados\obj\Debug\net8.0\ref\Projeto Banco de Dados.dll

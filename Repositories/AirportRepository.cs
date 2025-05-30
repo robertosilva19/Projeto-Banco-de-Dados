@@ -8,7 +8,7 @@ namespace Projeto_Banco_de_Dados.Repositories
         private readonly MongoDBSettings _mongoDBSettings;
 
         private readonly IMongoCollection<Airport> _airportsCollection;
-
+       
         public AirportRepository(IConfiguration mongoDBSettings)
         {
             _mongoDBSettings = new MongoDBSettings();
@@ -30,9 +30,9 @@ namespace Projeto_Banco_de_Dados.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<Airport> GetAirportByNameAsync(string id)
+        public async Task<Airport> GetAirportByNameAsync(string name)
         {
-            throw new NotImplementedException();
+            return await _airportsCollection.Find(a => a.Name.Equals(name, StringComparison.OrdinalIgnoreCase)).FirstOrDefaultAsync();
         }
 
         public async Task<IEnumerable<Airport>> GetAirportsAsync()
